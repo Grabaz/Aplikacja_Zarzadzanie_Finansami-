@@ -1,0 +1,13 @@
+﻿<Window x:Class="Portfolio.Calendar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Portfolio"
+        mc:Ignorable="d"
+        Closing="Window_Closing"
+        Title="Calendar" Height="900" Width="1600">
+    <Grid>
+        <Button Content="Menu Główne" HorizontalAlignment="Left" Margin="100,650,0,0" VerticalAlignment="Top" FontSize="35px" Height="80" Width="256" Click="Main_Menu"/>
+    </Grid>
+</Window>
