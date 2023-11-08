@@ -43,16 +43,20 @@ namespace Portfolio
 
         private void Events(object sender, RoutedEventArgs e)
         {
-            ///Add new Window Events
-            ///Add goto Events
-            ///show event payment and caliber to raports and calendar
+            Window events = new Events(this);
+            events.Show();
+            events.Focus();
+            Visibility = Visibility.Hidden;
+            
         }
 
         private void Raports(object sender, RoutedEventArgs e)
         {
-            ///Add new Window Raports
-            ///Add goto Raports
-            ///In raports you can download pdf Raports Day Week Month Year
+            Window raports = new Raports(this);
+            raports.Show();
+            raports.Focus();
+            Visibility = Visibility.Hidden;
+           
         }
     }
 }
